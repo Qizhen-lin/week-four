@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/*頁籤區塊*/
+.news_bar {
+  background-color: #650300; }
+  .news_bar div {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .news_bar div ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .news_bar div ul li {
+        font-size: 20px;
+        color: #FFF;
+        line-height: 28px;
+        margin-right: 48px;
+        padding: 12px 0; }
+    .news_bar div .search-icon {
+      margin-top: 15px; }
+
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+/*麵包屑*/
+.bread-crumbs {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 8px 0 16px; }
+  .bread-crumbs span {
+    color: #AA0601; }
+
+/*文章tag*/
+.article-tags {
+  font-size: 24px;
+  color: #AA0601;
+  line-height: 32px;
+  font-weight: bold;
+  margin-top: 16px; }
+
+/*情人特別企劃*/
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /*share logo*/
+  /*上下頁*/ }
+  .container .container-plan {
+    max-width: 894px;
+    margin-right: 24px; }
+    .container .container-plan .plan-h1 {
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 67px;
+      margin-bottom: 4px; }
+  .container ul.container-valentine {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    line-height: 37px;
+    margin-bottom: 24px; }
+    .container ul.container-valentine li:nth-child(1) {
+      font-size: 28px;
+      font-weight: bold; }
+    .container ul.container-valentine li:nth-child(2) {
+      font-size: 16px; }
+  .container .container-content img {
+    width: 100%; }
+  .container .container-content .content-p {
+    font-size: 20px;
+    color: #0A0A0A;
+    margin: 24px 0 40px;
+    line-height: 30px;
+    font-weight: bold; }
+  .container .container-share {
+    border-bottom: 1px solid #707070;
+    padding-bottom: 16px;
+    margin-bottom: 24px; }
+    .container .container-share span {
+      margin-right: 16px; }
+      .container .container-share span.share-title {
+        font-size: 20px;
+        color: #0A0A0A;
+        font-weight: bold; }
+  .container .container-page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 156px;
+    font-size: 19px; }
+    .container .container-page img {
+      vertical-align: text-top; }
+
+/*tags*/
+.article-right {
+  max-width: 282px; }
+  .article-right .right-title {
+    font-size: 28px;
+    color: #AA0601;
+    font-weight: bold;
+    margin-bottom: 9px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .article-right .right-title img {
+      margin-right: 8px; }
+  .article-right span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #AA0601;
+    margin: 0 24px 8px 0;
+    line-height: 32px; }
+
+/*# sourceMappingURL=article.css.map */
