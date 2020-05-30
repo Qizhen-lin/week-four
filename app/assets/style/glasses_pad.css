@@ -1,0 +1,86 @@
+@media(max-width: 768px) {
+
+  /* 頁首區塊 */
+  header {
+    padding: 30px 48px;
+  }
+
+  header ul {
+    max-width: 420px;
+  }
+
+  section.container-cover .title p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  section.container-cover .title-h1 {
+    font-size: 48px;
+    line-height: 72px;
+  }
+
+  section.container-cover .title {
+    margin: 373px 48px 0 0; 
+  }
+
+
+  /*  專業的區塊 */
+  .container-profession .profession-wrap { /*order 可以改變圖片順序，益智遊戲無誤*/
+    max-width: 672px;
+    padding: 40px 0 80px;
+  }
+  .container-profession ul {
+    flex-wrap: wrap;
+    margin-top: 32px;
+  }
+
+  .container-profession ul li:nth-child(1) {
+    order: 3;
+  }
+
+  .container-profession ul li:nth-child(2) {
+    order: 1;
+    margin-bottom: 40px;
+  }
+
+  .container-profession ul li:nth-child(3) {
+    order: 2;
+    margin-bottom: 40px;
+  }
+
+  .container-profession ul li:nth-child(4) {
+    order: 4;
+  }
+
+  .container-profession .profession-h2 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .container-profession .profession-h3 {
+    font-size: 20px;
+    line-height: 28px; 
+    margin-bottom: 8px;
+  }
+
+  .container-profession p {
+    max-width: 234px;
+  }
+
+  .container-profession .profession-img  img{
+    width: 80px;
+  }
+
+  .container-profession .profession-img {
+    margin-bottom: 16px;
+  }
+
+
+
+
+
+
+
+
+}
+
